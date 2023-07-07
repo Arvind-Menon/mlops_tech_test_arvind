@@ -3,14 +3,13 @@ import os
 import xgboost as xgb
 import pandas as pd
 import sys
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+
+parent_dir = os.getcwd()
 sys.path.append(parent_dir)
 
 from pre_processing.data_pre_processing import data_pre_processor
-from config.config import xgb_classification_config
+from config.config import xgb_classification_config, log_config
 from service.logger import Logger
-
-prediction_logger = Logger(log_file='../output/prediction_logs.log', event_name="task_2")
 
 
 # initialise vars from config
@@ -19,6 +18,10 @@ target_column = xgb_classification_config["target_column"]
 model_path = xgb_classification_config["model_path"]
 dataset_url = xgb_classification_config["model_predict_dataset_url"]
 output_file_path = xgb_classification_config["output_file_path"]
+log_file_path = log_config["log_file_path"]
+
+# configure logger
+prediction_logger = Logger(log_file=log_file_path, event_name="task_2")
 
 # Load the model
 loaded_model = xgb.Booster()
@@ -42,7 +45,7 @@ y = petfinder_df.Adopted
 # data pre-processing
 X_processed = data_pre_processor(X)
 
-# transform into form feedable to the model
+# transform into form feed-able to the model
 dtest = xgb.DMatrix(X_processed)
 
 # predict the outcomes and round the results
@@ -52,8 +55,8 @@ prediction_logger.info("Predictions done!")
 
 # Change from 0/1 -> No/Yes
 petfinder_df[target_column] = petfinder_df[target_column].map(reverse_mapping)
-petfinder_df[f'{target_column}_scored'] = y_pred_labels
-petfinder_df[f'{target_column}_scored'] = petfinder_df[f'{target_column}_scored'].map(reverse_mapping)
+petfinder_df[f'{target_column}_prediction'] = y_pred_labels
+petfinder_df[f'{target_column}_prediction'] = petfinder_df[f'{target_column}_prediction'].map(reverse_mapping)
 
 # save results
 petfinder_df.to_csv(output_file_path, index=False)

@@ -37,19 +37,25 @@ def data_pre_processor(X, y=None):
 
     categorical_pipeline = Pipeline(
         steps=[
+            # no null values in this dataset, but if generalised
             ("impute", SimpleImputer(strategy="most_frequent")),
+            # the count of unique_values in Breed1 is very for some, so used Freq encoder in place of one hot
             ("frequency-encode", FrequencyEncoder()),
         ]
     )
-
     numeric_pipeline = Pipeline(
-        steps=[("impute", SimpleImputer(strategy="median")),
-               ("scale", StandardScaler())]
+        steps=[
+            # no null values in this dataset, but if generalised
+            ("impute", SimpleImputer(strategy="median")),
+            # normalise
+            ("scale", StandardScaler())]
     )
 
+    # separate category from numerical columns
     cat_cols = X.select_dtypes(exclude="number").columns
     num_cols = X.select_dtypes(include="number").columns
 
+    # to transform the columns respectively
     full_processor = ColumnTransformer(
         transformers=[
             ("numeric", numeric_pipeline, num_cols),

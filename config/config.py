@@ -8,11 +8,16 @@ xgb_classification_config = {
         "xgboost_max_depth": 6,
         "xgboost_num_boost_round": 1000,
         "xgboost_early_stopping_rounds": 3,
-        "model_path": "../artifacts/model/XGBoost_model.bin",
-        "output_file_path": "../output/results.csv"
+        "model_path": "artifacts/model/XGBoost_model.bin",
+        "output_file_path": "output/results.csv"
         }
 
 xgb_test_config = {
-                "model_path": "../artifacts/model/XGBoost_model.bin",
-                "test_data_path" : "../tests/unit_tests/test_data.csv"
+                "model_path": "artifacts/model/XGBoost_model.bin",
+                "test_data_path" : "tests/unit_tests/test_data.csv",
+                "target_column" : "Adopted"
                 }
+
+log_config = {
+            "log_file_path" : "artifacts/prediction_logs.log"
+            }

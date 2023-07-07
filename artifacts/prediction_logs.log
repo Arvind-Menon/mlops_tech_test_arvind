@@ -1,0 +1,214 @@
+2023-07-06 23:39:36,188 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:39:36,221 - INFO - Data pre-processed for task_1
+2023-07-06 23:39:36,248 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:39:36,254 - INFO - Training begins with Max depth: 3, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:39:36,399 - INFO - Training over for task_1
+2023-07-06 23:39:36,404 - INFO - Accuracy: 75.74% for task_1
+2023-07-06 23:39:36,404 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:39:36,404 - INFO - Recall: 0.93 for task_1
+2023-07-06 23:39:36,405 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:40:12,556 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:40:12,587 - INFO - Data pre-processed for task_1
+2023-07-06 23:40:12,614 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:40:12,622 - INFO - Training begins with Max depth: 3, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:40:12,787 - INFO - Training over for task_1
+2023-07-06 23:40:12,794 - INFO - Accuracy: 75.74% for task_1
+2023-07-06 23:40:12,794 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:40:12,794 - INFO - Recall: 0.93 for task_1
+2023-07-06 23:40:12,795 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:40:22,464 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:40:22,490 - INFO - Data pre-processed for task_1
+2023-07-06 23:40:22,517 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:40:22,521 - INFO - Training begins with Max depth: 4, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:40:22,680 - INFO - Training over for task_1
+2023-07-06 23:40:22,686 - INFO - Accuracy: 76.08% for task_1
+2023-07-06 23:40:22,686 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:40:22,686 - INFO - Recall: 0.92 for task_1
+2023-07-06 23:40:22,686 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:40:31,635 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:40:31,662 - INFO - Data pre-processed for task_1
+2023-07-06 23:40:31,689 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:40:31,692 - INFO - Training begins with Max depth: 5, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:40:31,991 - INFO - Training over for task_1
+2023-07-06 23:40:31,998 - INFO - Accuracy: 76.08% for task_1
+2023-07-06 23:40:31,998 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:40:31,998 - INFO - Recall: 0.91 for task_1
+2023-07-06 23:40:31,998 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:40:41,220 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:40:41,249 - INFO - Data pre-processed for task_1
+2023-07-06 23:40:41,275 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:40:41,280 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:40:41,500 - INFO - Training over for task_1
+2023-07-06 23:40:41,507 - INFO - Accuracy: 76.30% for task_1
+2023-07-06 23:40:41,507 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:40:41,507 - INFO - Recall: 0.91 for task_1
+2023-07-06 23:40:41,507 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:40:54,207 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:40:54,238 - INFO - Data pre-processed for task_1
+2023-07-06 23:40:54,264 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:40:54,270 - INFO - Training begins with Max depth: 7, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:40:54,451 - INFO - Training over for task_1
+2023-07-06 23:40:54,457 - INFO - Accuracy: 75.26% for task_1
+2023-07-06 23:40:54,457 - INFO - F1 Score: 0.84 for task_1
+2023-07-06 23:40:54,457 - INFO - Recall: 0.90 for task_1
+2023-07-06 23:40:54,458 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:41:07,120 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:41:07,155 - INFO - Data pre-processed for task_1
+2023-07-06 23:41:07,182 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:41:07,188 - INFO - Training begins with Max depth: 8, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:41:07,417 - INFO - Training over for task_1
+2023-07-06 23:41:07,424 - INFO - Accuracy: 75.91% for task_1
+2023-07-06 23:41:07,424 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:41:07,424 - INFO - Recall: 0.90 for task_1
+2023-07-06 23:41:07,424 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:41:24,723 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:41:24,753 - INFO - Data pre-processed for task_1
+2023-07-06 23:41:24,780 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:41:24,785 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 10 for task_1
+2023-07-06 23:41:25,004 - INFO - Training over for task_1
+2023-07-06 23:41:25,011 - INFO - Accuracy: 76.30% for task_1
+2023-07-06 23:41:25,011 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:41:25,011 - INFO - Recall: 0.91 for task_1
+2023-07-06 23:41:25,011 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:41:34,529 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:41:34,557 - INFO - Data pre-processed for task_1
+2023-07-06 23:41:34,583 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:41:34,587 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 5 for task_1
+2023-07-06 23:41:34,758 - INFO - Training over for task_1
+2023-07-06 23:41:34,764 - INFO - Accuracy: 76.39% for task_1
+2023-07-06 23:41:34,764 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:41:34,764 - INFO - Recall: 0.91 for task_1
+2023-07-06 23:41:34,765 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:42:00,541 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:42:00,573 - INFO - Data pre-processed for task_1
+2023-07-06 23:42:00,600 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:42:00,606 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:42:00,746 - INFO - Training over for task_1
+2023-07-06 23:42:00,752 - INFO - Accuracy: 76.69% for task_1
+2023-07-06 23:42:00,752 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:42:00,752 - INFO - Recall: 0.92 for task_1
+2023-07-06 23:42:00,753 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:42:23,546 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:42:23,576 - INFO - Data pre-processed for task_1
+2023-07-06 23:42:23,603 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:42:23,609 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 2 for task_1
+2023-07-06 23:42:23,719 - INFO - Training over for task_1
+2023-07-06 23:42:23,725 - INFO - Accuracy: 76.52% for task_1
+2023-07-06 23:42:23,726 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:42:23,726 - INFO - Recall: 0.92 for task_1
+2023-07-06 23:42:23,727 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:42:37,308 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:42:37,338 - INFO - Data pre-processed for task_1
+2023-07-06 23:42:37,365 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:42:37,371 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:42:37,520 - INFO - Training over for task_1
+2023-07-06 23:42:37,527 - INFO - Accuracy: 76.69% for task_1
+2023-07-06 23:42:37,527 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:42:37,527 - INFO - Recall: 0.92 for task_1
+2023-07-06 23:42:37,528 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:42:48,518 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:42:48,544 - INFO - Data pre-processed for task_1
+2023-07-06 23:42:48,569 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:42:48,576 - INFO - Training begins with Max depth: 7, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:42:48,695 - INFO - Training over for task_1
+2023-07-06 23:42:48,700 - INFO - Accuracy: 74.57% for task_1
+2023-07-06 23:42:48,700 - INFO - F1 Score: 0.84 for task_1
+2023-07-06 23:42:48,700 - INFO - Recall: 0.90 for task_1
+2023-07-06 23:42:48,701 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:42:58,780 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:42:58,806 - INFO - Data pre-processed for task_1
+2023-07-06 23:42:58,832 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:42:58,836 - INFO - Training begins with Max depth: 5, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:42:59,000 - INFO - Training over for task_1
+2023-07-06 23:42:59,006 - INFO - Accuracy: 76.17% for task_1
+2023-07-06 23:42:59,006 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:42:59,006 - INFO - Recall: 0.91 for task_1
+2023-07-06 23:42:59,007 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:43:12,261 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:43:12,292 - INFO - Data pre-processed for task_1
+2023-07-06 23:43:12,320 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:43:12,326 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:43:12,482 - INFO - Training over for task_1
+2023-07-06 23:43:12,488 - INFO - Accuracy: 76.69% for task_1
+2023-07-06 23:43:12,489 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:43:12,489 - INFO - Recall: 0.92 for task_1
+2023-07-06 23:43:12,489 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:48:51,119 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:48:51,149 - INFO - Data pre-processed for task_1
+2023-07-06 23:48:51,173 - INFO - Train split: 0.8, Val split: 0.09999999999999998, Test split: 0.09999999999999998 for task_1
+2023-07-06 23:48:51,179 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:48:51,344 - INFO - Training over for task_1
+2023-07-06 23:48:51,349 - INFO - Accuracy: 76.34% for task_1
+2023-07-06 23:48:51,349 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:48:51,349 - INFO - Recall: 0.93 for task_1
+2023-07-06 23:48:51,350 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:49:30,352 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:49:30,383 - INFO - Data pre-processed for task_1
+2023-07-06 23:49:30,407 - INFO - Train split: 0.8, Val split: 0.039999999999999994, Test split: 0.15999999999999998 for task_1
+2023-07-06 23:49:30,413 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:49:30,540 - INFO - Training over for task_1
+2023-07-06 23:49:30,543 - INFO - Accuracy: 77.49% for task_1
+2023-07-06 23:49:30,543 - INFO - F1 Score: 0.86 for task_1
+2023-07-06 23:49:30,543 - INFO - Recall: 0.93 for task_1
+2023-07-06 23:49:30,544 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-06 23:49:57,874 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-06 23:49:57,905 - INFO - Data pre-processed for task_1
+2023-07-06 23:49:57,933 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-06 23:49:57,938 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-06 23:49:58,094 - INFO - Training over for task_1
+2023-07-06 23:49:58,100 - INFO - Accuracy: 76.69% for task_1
+2023-07-06 23:49:58,100 - INFO - F1 Score: 0.85 for task_1
+2023-07-06 23:49:58,100 - INFO - Recall: 0.92 for task_1
+2023-07-06 23:49:58,100 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin for task_1
+2023-07-07 00:04:08,452 - INFO - Model loaded for task_2
+2023-07-07 00:04:10,094 - INFO - Dataset loaded for task_2
+2023-07-07 00:04:10,136 - INFO - Predictions done! for task_2
+2023-07-07 00:04:10,166 - INFO - Output has been saved in: ../output/results.csv
+2023-07-07 00:06:42,944 - INFO - Model loaded for task_2
+2023-07-07 00:06:44,416 - INFO - Dataset loaded for task_2
+2023-07-07 00:06:44,461 - INFO - Predictions done! for task_2
+2023-07-07 00:06:44,489 - INFO - Output has been saved in: ../output/results.csv
+
+2023-07-07 00:06:54,188 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-07 00:06:54,215 - INFO - Data pre-processed for task_1
+2023-07-07 00:06:54,243 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-07 00:06:54,248 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-07 00:06:54,395 - INFO - Training over for task_1
+2023-07-07 00:06:54,400 - INFO - Accuracy: 76.69% for task_1
+2023-07-07 00:06:54,401 - INFO - F1 Score: 0.85 for task_1
+2023-07-07 00:06:54,401 - INFO - Recall: 0.92 for task_1
+2023-07-07 00:06:54,401 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin
+
+2023-07-07 00:07:13,528 - INFO - Model loaded for task_2
+2023-07-07 00:07:14,517 - INFO - Dataset loaded for task_2
+2023-07-07 00:07:14,564 - INFO - Predictions done! for task_2
+2023-07-07 00:07:14,594 - INFO - Output has been saved in: ../output/results.csv
+
+2023-07-07 08:56:02,052 - INFO - Model loaded for task_2
+2023-07-07 08:56:04,999 - INFO - Dataset loaded for task_2
+2023-07-07 08:57:21,281 - INFO - Model loaded for task_2
+2023-07-07 08:57:22,365 - INFO - Dataset loaded for task_2
+2023-07-07 08:57:22,413 - INFO - Predictions done! for task_2
+2023-07-07 08:57:22,441 - INFO - Output has been saved in: ../output/results.csv
+
+2023-07-07 08:58:09,539 - INFO - Model loaded for task_2
+2023-07-07 08:58:10,385 - INFO - Dataset loaded for task_2
+2023-07-07 08:58:10,431 - INFO - Predictions done! for task_2
+2023-07-07 08:58:10,460 - INFO - Output has been saved in: ../output/results1.csv
+
+2023-07-07 09:04:36,184 - INFO - Model loaded for task_2
+2023-07-07 09:04:37,451 - INFO - Dataset loaded for task_2
+2023-07-07 09:04:48,864 - INFO - Model loaded for task_2
+2023-07-07 09:04:50,449 - INFO - Dataset loaded for task_2
+2023-07-07 09:04:50,490 - INFO - Predictions done! for task_2
+2023-07-07 09:04:50,519 - INFO - Output has been saved in: ../output/results.csv
+
+2023-07-07 09:05:02,618 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-07 09:05:02,646 - INFO - Data pre-processed for task_1
+2023-07-07 09:05:02,673 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-07 09:05:02,680 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-07 09:05:02,834 - INFO - Training over for task_1
+2023-07-07 09:05:02,840 - INFO - Accuracy: 76.69% for task_1
+2023-07-07 09:05:02,840 - INFO - F1 Score: 0.85 for task_1
+2023-07-07 09:05:02,840 - INFO - Recall: 0.92 for task_1
+2023-07-07 09:05:02,841 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin2023-07-07 13:12:39,293 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
