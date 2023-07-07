@@ -4,3 +4,4 @@ MLOpsTechTest.md
 .gitignore
 tests/unit_tests/.pytest_cache/CACHEDIR.TAG
 tests/unit_tests/.pytest_cache/README.md
+/.DS_Store
