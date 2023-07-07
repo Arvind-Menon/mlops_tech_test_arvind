@@ -1,3 +1,9 @@
 /.DS_Store
 /.idea
 /MLOpsTechTest.md
+output/
+.gitignore
+output/results.csv
+output/prediction_logs.log
+tests/unit_tests/.pytest_cache/CACHEDIR.TAG
+tests/unit_tests/.pytest_cache/README.md

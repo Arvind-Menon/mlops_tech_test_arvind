@@ -25,6 +25,7 @@ loaded_model = xgb.Booster()
 loaded_model.load_model(model_path)
 prediction_logger.info("Model loaded")
 
+# load dataset
 petfinder_df = pd.read_csv(dataset_url)
 prediction_logger.info("Dataset loaded")
 
@@ -34,22 +35,28 @@ reverse_mapping = {v: k for k, v in mapping.items()}
 # Apply the mapping to transform the column
 petfinder_df[target_column] = petfinder_df[target_column].map(mapping)
 
+# separate features columns from target columns
 X = petfinder_df.drop(target_column, axis=1)
 y = petfinder_df.Adopted
 
+# data pre-processing
 X_processed = data_pre_processor(X)
 
+# transform into form feedable to the model
 dtest = xgb.DMatrix(X_processed)
 
+# predict the outcomes and round the results
 predictions = loaded_model.predict(dtest)
 y_pred_labels = [round(value) for value in predictions]
 prediction_logger.info("Predictions done!")
 
+# Change from 0/1 -> No/Yes
 petfinder_df[target_column] = petfinder_df[target_column].map(reverse_mapping)
 petfinder_df[f'{target_column}_scored'] = y_pred_labels
 petfinder_df[f'{target_column}_scored'] = petfinder_df[f'{target_column}_scored'].map(reverse_mapping)
 
-petfinder_df.to_csv(output_file_path)
+# save results
+petfinder_df.to_csv(output_file_path, index=False)
 
 logging.info(f"Output has been saved in: {output_file_path}\n")
 print(f"Output has been saved in: {output_file_path}")

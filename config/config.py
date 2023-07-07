@@ -11,3 +11,8 @@ xgb_classification_config = {
         "model_path": "../artifacts/model/XGBoost_model.bin",
         "output_file_path": "../output/results.csv"
         }
+
+xgb_test_config = {
+                "model_path": "../artifacts/model/XGBoost_model.bin",
+                "test_data_path" : "../tests/unit_tests/test_data.csv"
+                }
