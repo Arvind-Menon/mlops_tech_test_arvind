@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+/.DS_Store
+/.idea
+tests/unit_tests/.pytest_cache/CACHEDIR.TAG
+tests/unit_tests/.pytest_cache/README.md
+MLOpsTechTest.md

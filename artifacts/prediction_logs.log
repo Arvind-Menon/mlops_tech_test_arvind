@@ -212,3 +212,18 @@
 2023-07-07 09:05:02,840 - INFO - F1 Score: 0.85 for task_1
 2023-07-07 09:05:02,840 - INFO - Recall: 0.92 for task_1
 2023-07-07 09:05:02,841 - INFO - Model saved at ../artifacts/model/XGBoost_model.bin2023-07-07 13:12:39,293 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-07 14:25:18,971 - INFO - Dataset loaded from: https://storage.googleapis.com/cloud-samples-data/ai-platform-unified/datasets/tabular/petfinder-tabular-classification.csv for task_1
+2023-07-07 14:25:19,003 - INFO - Data pre-processed for task_1
+2023-07-07 14:25:19,031 - INFO - Train split: 0.6, Val split: 0.2, Test split: 0.2 for task_1
+2023-07-07 14:25:19,039 - INFO - Training begins with Max depth: 6, Max boost round: 1000, early_stopping_round: 3 for task_1
+2023-07-07 14:25:19,316 - INFO - Training over for task_1
+2023-07-07 14:25:19,322 - INFO - Accuracy: 76.69% for task_1
+2023-07-07 14:25:19,322 - INFO - F1 Score: 0.85 for task_1
+2023-07-07 14:25:19,322 - INFO - Recall: 0.92 for task_1
+2023-07-07 14:25:19,324 - INFO - Model saved at artifacts/model/XGBoost_model.bin
+
+2023-07-07 14:25:35,848 - INFO - Model loaded for task_2
+2023-07-07 14:25:37,055 - INFO - Dataset loaded for task_2
+2023-07-07 14:25:37,104 - INFO - Predictions done! for task_2
+2023-07-07 14:25:37,131 - INFO - Output has been saved in: output/results.csv
+
